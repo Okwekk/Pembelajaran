@@ -1,6 +1,6 @@
 # Ruang Ekonomi
 
-Website edukasi ekonomi berbahasa Indonesia, dengan enam artikel awal, kategori, pencarian, dan tampilan untuk HP. Tidak membutuhkan instalasi paket, database, atau kunci API.
+Website edukasi ekonomi berbahasa Indonesia, dengan enam materi awal ekonomi makro (pengantar, PDB, inflasi, pengangguran, fiskal, serta moneter dan kurs), kategori, pencarian, dan tampilan untuk HP. Tidak membutuhkan instalasi paket, database, atau kunci API.
 
 ## Menjalankan
 
@@ -18,10 +18,10 @@ Buka website melalui server HTTP di komputer atau layanan hosting yang digunakan
 - `style.css`: warna, ukuran, dan tampilan.
 - `index.html`: nama website, pengantar, dan bagian tentang.
 
-Font Google bersifat opsional; website menggunakan font bawaan jika font tersebut tidak tersedia. Semua fungsi utama berjalan tanpa layanan luar.
+Website menggunakan font bawaan. Semua fungsi utama berjalan tanpa layanan luar. Setiap artikel menyertakan rujukan lembaga resmi; angka yang digunakan merupakan ilustrasi.
 
 ## Penghasilan dan publikasi
 
-Belum ada iklan, afiliasi, pelacakan, atau pembayaran yang terpasang. Website belum dipublikasikan. Bangun konten orisinal dan pembaca terlebih dahulu. Jika menambahkan afiliasi, jelaskan hubungan komisi kepada pembaca. Persetujuan jaringan iklan dan penghasilan tidak dijamin.
+Belum ada iklan, afiliasi, pelacakan, atau pembayaran yang terpasang. Kode diunggah ke branch main; status publikasi GitHub Pages harus diperiksa secara terpisah. Bangun konten orisinal dan pembaca terlebih dahulu. Jika menambahkan afiliasi, jelaskan hubungan komisi kepada pembaca. Persetujuan jaringan iklan dan penghasilan tidak dijamin.
 
 Materi ini merupakan edukasi umum, bukan rekomendasi investasi pribadi. Tinjau ketepatan dan sumber materi sebelum memublikasikan.

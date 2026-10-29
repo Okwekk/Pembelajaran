@@ -21,6 +21,10 @@ const articles = [
         "Jika permintaan barang meningkat, perusahaan mungkin menambah produksi dan pekerja. Jika biaya energi meningkat, sebagian harga dapat ikut naik. Hubungan ini tidak selalu terjadi dengan besaran atau kecepatan yang sama, karena kapasitas produksi, ekspektasi, dan kebijakan juga berperan."
       ],
       [
+        "Sudut pandang John Maynard Keynes",
+        "Dalam pendekatan Keynesian, permintaan agregat berperan penting bagi produksi dan pekerjaan dalam jangka pendek. Saat pengeluaran melemah, perusahaan dapat mengurangi produksi dan perekrutan. Penjelasan ini merujuk pada pembahasan Keynes dalam buku Greenlaw, Shapiro, dan MacDonald, bukan kutipan langsung dari karya Keynes. Dampak permintaan tetap bergantung pada kapasitas dan kondisi ekonomi."
+      ],
+      [
         "Urutan belajar yang disarankan",
         "Lanjutkan ke PDB dan pertumbuhan, inflasi, pengangguran, kebijakan fiskal, lalu kebijakan moneter dan kurs. Setiap contoh angka dalam materi ini adalah ilustrasi, bukan laporan kondisi ekonomi terkini."
       ]
@@ -39,7 +43,7 @@ const articles = [
     "takeaways": [
       "Makro melihat ekonomi secara keseluruhan; mikro melihat pelaku atau pasar tertentu.",
       "PDB riil, inflasi, dan pengangguran menjawab pertanyaan berbeda. Baca ketiganya bersama.",
-      "Hubungan ekonomi bergantung pada konteks; korelasi saja bukan bukti sebab-akibat."
+      "Model ekonomi menyederhanakan kenyataan. Periksa asumsi dan batasnya sebelum menarik kesimpulan."
     ],
     "chain": [
       "Permintaan total naik",
@@ -64,7 +68,57 @@ const articles = [
         "Benar. Inflasi nasional dan produksi agregat adalah dua ukuran ekonomi secara keseluruhan. Hubungan keduanya perlu dilihat bersama penyebab perubahan.",
         "Penetapan harga sebuah toko terutama berada dalam kajian mikro. Makro melihat harga secara umum dan produksi seluruh perekonomian."
       ]
-    }
+    },
+    "sectionRefs": [
+      [
+        "1.2"
+      ],
+      [
+        "11.5"
+      ],
+      [
+        "11.3",
+        "11.4"
+      ],
+      [
+        "12.1"
+      ],
+      []
+    ],
+    "referenceGroups": {
+      "chain": [
+        "11.4",
+        "11.5"
+      ],
+      "example": [
+        "6.3",
+        "6.5"
+      ],
+      "takeaways": [
+        [
+          "1.2"
+        ],
+        [
+          "11.5"
+        ],
+        [
+          "1.3"
+        ]
+      ],
+      "quiz": [
+        "1.2"
+      ]
+    },
+    "referenceIds": [
+      "1.2",
+      "11.5",
+      "11.3",
+      "11.4",
+      "12.1",
+      "6.3",
+      "6.5",
+      "1.3"
+    ]
   },
   {
     "id": "pdb",
@@ -131,7 +185,54 @@ const articles = [
         "PDB riil memisahkan pengaruh harga. Karena jumlah produksi tetap, pertumbuhan riil dalam contoh ini adalah nol.",
         "Kenaikan harga tidak menunjukkan peningkatan produksi maupun pembagian pendapatan. Kesejahteraan tidak dapat disimpulkan dari angka nominal saja."
       ]
-    }
+    },
+    "sectionRefs": [
+      [
+        "6.1"
+      ],
+      [
+        "6.2"
+      ],
+      [
+        "6.3"
+      ],
+      [
+        "6.1"
+      ],
+      [
+        "6.5"
+      ]
+    ],
+    "referenceGroups": {
+      "chain": [
+        "6.2"
+      ],
+      "example": [
+        "6.2",
+        "6.3"
+      ],
+      "takeaways": [
+        [
+          "6.1"
+        ],
+        [
+          "6.2",
+          "6.3"
+        ],
+        [
+          "6.1"
+        ]
+      ],
+      "quiz": [
+        "6.2"
+      ]
+    },
+    "referenceIds": [
+      "6.1",
+      "6.2",
+      "6.3",
+      "6.5"
+    ]
   },
   {
     "id": "inflasi",
@@ -202,7 +303,62 @@ const articles = [
         "Benar. Ini disinflasi. Selama inflasi positif, tingkat harga secara umum masih meningkat; kenaikannya lebih lambat.",
         "Inflasi 3% berarti indeks harga masih naik. Harga tiap barang juga dapat bergerak berbeda dari rata-rata."
       ]
-    }
+    },
+    "sectionRefs": [
+      [
+        "9.1",
+        "9.2"
+      ],
+      [
+        "9.1",
+        "9.3"
+      ],
+      [
+        "11.3",
+        "11.4",
+        "16.3"
+      ],
+      [
+        "9.4"
+      ],
+      [
+        "9.1"
+      ]
+    ],
+    "referenceGroups": {
+      "chain": [
+        "11.3"
+      ],
+      "example": [
+        "9.1",
+        "9.4"
+      ],
+      "takeaways": [
+        [
+          "9.1"
+        ],
+        [
+          "9.1",
+          "9.3"
+        ],
+        [
+          "9.4"
+        ]
+      ],
+      "quiz": [
+        "9.1",
+        "9.3"
+      ]
+    },
+    "referenceIds": [
+      "9.1",
+      "9.2",
+      "9.3",
+      "11.3",
+      "11.4",
+      "16.3",
+      "9.4"
+    ]
   },
   {
     "id": "pengangguran",
@@ -215,7 +371,7 @@ const articles = [
     "sections": [
       [
         "Kenali angkatan kerja",
-        "Angkatan kerja terdiri dari penduduk usia kerja yang bekerja dan yang termasuk pengangguran menurut definisi statistik. Orang yang tidak bekerja tetapi sedang sekolah atau mengurus rumah tangga tanpa mencari pekerjaan umumnya berada di luar angkatan kerja. Klasifikasi resmi memiliki rincian operasional yang perlu diperiksa dalam publikasi BPS."
+        "Angkatan kerja mencakup orang yang bekerja dan orang yang diklasifikasikan sebagai pengangguran. Orang tanpa pekerjaan tidak otomatis masuk kelompok pengangguran: seseorang dapat berada di luar angkatan kerja, misalnya karena bersekolah dan tidak mencari kerja. Buku rujukan menjelaskan konsep umum; untuk angka Indonesia, periksa definisi operasional dalam publikasi BPS."
       ],
       [
         "Menghitung tingkat pengangguran",
@@ -265,7 +421,50 @@ const articles = [
         "Penyebutnya seluruh angkatan kerja: yang bekerja ditambah pengangguran. Jadi bukan hanya 190 orang yang bekerja.",
         "Benar. Angkatan kerja = 190 + 10 = 200. TPT = 10 ÷ 200 × 100% = 5%."
       ]
-    }
+    },
+    "sectionRefs": [
+      [
+        "8.1"
+      ],
+      [
+        "8.1"
+      ],
+      [
+        "8.3",
+        "8.4"
+      ],
+      [
+        "8.1"
+      ]
+    ],
+    "referenceGroups": {
+      "chain": [
+        "8.3"
+      ],
+      "example": [
+        "8.1"
+      ],
+      "takeaways": [
+        [
+          "8.1"
+        ],
+        [
+          "8.3",
+          "8.4"
+        ],
+        [
+          "8.1"
+        ]
+      ],
+      "quiz": [
+        "8.1"
+      ]
+    },
+    "referenceIds": [
+      "8.1",
+      "8.3",
+      "8.4"
+    ]
   },
   {
     "id": "fiskal",
@@ -332,7 +531,63 @@ const articles = [
         "Suku bunga kebijakan merupakan instrumen moneter bank sentral, bukan instrumen fiskal pemerintah.",
         "Keputusan produk sebuah bank tidak otomatis menjadi kebijakan fiskal. Fiskal berhubungan dengan pendapatan, belanja, dan pembiayaan pemerintah."
       ]
-    }
+    },
+    "sectionRefs": [
+      [
+        "17.1",
+        "17.2"
+      ],
+      [
+        "17.4"
+      ],
+      [
+        "17.3"
+      ],
+      [
+        "17.4",
+        "18.1"
+      ],
+      [
+        "17.4",
+        "15.4"
+      ]
+    ],
+    "referenceGroups": {
+      "chain": [
+        "17.4",
+        "18.1",
+        "12.2"
+      ],
+      "example": [
+        "17.3"
+      ],
+      "takeaways": [
+        [
+          "17.4"
+        ],
+        [
+          "17.3"
+        ],
+        [
+          "17.6",
+          "18.1"
+        ]
+      ],
+      "quiz": [
+        "17.1",
+        "15.4"
+      ]
+    },
+    "referenceIds": [
+      "17.1",
+      "17.2",
+      "17.4",
+      "17.3",
+      "18.1",
+      "15.4",
+      "12.2",
+      "17.6"
+    ]
   },
   {
     "id": "moneter-kurs",
@@ -345,7 +600,7 @@ const articles = [
     "sections": [
       [
         "Apa itu kebijakan moneter?",
-        "Kebijakan moneter mengelola kondisi moneter, antara lain melalui suku bunga, untuk mendukung stabilitas sesuai mandat bank sentral. Tujuan Bank Indonesia mencakup stabilitas nilai rupiah, stabilitas sistem pembayaran, dan turut menjaga stabilitas sistem keuangan untuk mendukung pertumbuhan ekonomi berkelanjutan. Dalam konteks rupiah, stabilitas mencakup daya beli terhadap barang dan jasa serta nilai tukar terhadap mata uang lain."
+        "Kebijakan moneter menggunakan instrumen bank sentral, seperti suku bunga kebijakan, untuk memengaruhi kondisi keuangan dan kegiatan ekonomi. Perubahan suku bunga dapat memengaruhi kredit, pengeluaran, dan tekanan harga. Mandat serta instrumen bank sentral berbeda antarnegara. Untuk konteks Indonesia, pelajari keputusan dan penjelasan yang diterbitkan Bank Indonesia."
       ],
       [
         "Bagaimana suku bunga bekerja?",
@@ -399,9 +654,305 @@ const articles = [
         "Benar. Dalam kuotasi Rp per dolar, kenaikan angka kurs berarti rupiah melemah terhadap dolar. Selalu cek mata uang pembandingnya.",
         "Dampak ke harga konsumen tidak seragam atau seketika. Komponen impor, persediaan, kontrak, dan kebijakan harga perusahaan ikut berpengaruh."
       ]
-    }
+    },
+    "sectionRefs": [
+      [
+        "15.1",
+        "15.4"
+      ],
+      [
+        "15.4",
+        "15.5"
+      ],
+      [
+        "16.1"
+      ],
+      [
+        "16.3"
+      ],
+      [
+        "16.2",
+        "15.5"
+      ]
+    ],
+    "referenceGroups": {
+      "chain": [
+        "15.4",
+        "15.5"
+      ],
+      "example": [
+        "16.1",
+        "16.3"
+      ],
+      "takeaways": [
+        [
+          "15.5"
+        ],
+        [
+          "16.1"
+        ],
+        [
+          "16.3"
+        ]
+      ],
+      "quiz": [
+        "16.1"
+      ]
+    },
+    "referenceIds": [
+      "15.1",
+      "15.4",
+      "15.5",
+      "16.1",
+      "16.3",
+      "16.2"
+    ]
   }
 ];
+const referenceCatalog = {
+  "1.2": {
+    "label": "§1.2 — Microeconomics and Macroeconomics",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/1-2-microeconomics-and-macroeconomics",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63581/index.cnxml"
+  },
+  "1.3": {
+    "label": "§1.3 — How Economists Use Theories and Models to Understand Economic Issues",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/1-3-how-economists-use-theories-and-models-to-understand-economic-issues",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63582/index.cnxml"
+  },
+  "6.1": {
+    "label": "§6.1 — Measuring the Size of the Economy: Gross Domestic Product",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-1-measuring-the-size-of-the-economy-gross-domestic-product",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63719/index.cnxml"
+  },
+  "6.2": {
+    "label": "§6.2 — Adjusting Nominal Values to Real Values",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-2-adjusting-nominal-values-to-real-values",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63724/index.cnxml"
+  },
+  "6.3": {
+    "label": "§6.3 — Tracking Real GDP over Time",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-3-tracking-real-gdp-over-time",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63727/index.cnxml"
+  },
+  "6.5": {
+    "label": "§6.5 — How Well GDP Measures the Well-Being of Society",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-5-how-well-gdp-measures-the-well-being-of-society",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63734/index.cnxml"
+  },
+  "8.1": {
+    "label": "§8.1 — How Economists Define and Compute Unemployment Rate",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/8-1-how-economists-define-and-compute-unemployment-rate",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64100/index.cnxml"
+  },
+  "8.3": {
+    "label": "§8.3 — What Causes Changes in Unemployment over the Short Run",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/8-3-what-causes-changes-in-unemployment-over-the-short-run",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64090/index.cnxml"
+  },
+  "8.4": {
+    "label": "§8.4 — What Causes Changes in Unemployment over the Long Run",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/8-4-what-causes-changes-in-unemployment-over-the-long-run",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64098/index.cnxml"
+  },
+  "9.1": {
+    "label": "§9.1 — Tracking Inflation",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/9-1-tracking-inflation",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64146/index.cnxml"
+  },
+  "9.2": {
+    "label": "§9.2 — How to Measure Changes in the Cost of Living",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/9-2-how-to-measure-changes-in-the-cost-of-living",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64154/index.cnxml"
+  },
+  "9.4": {
+    "label": "§9.4 — The Confusion Over Inflation",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/9-4-the-confusion-over-inflation",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64139/index.cnxml"
+  },
+  "11.3": {
+    "label": "§11.3 — Shifts in Aggregate Supply",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-3-shifts-in-aggregate-supply",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63808/index.cnxml"
+  },
+  "11.4": {
+    "label": "§11.4 — Shifts in Aggregate Demand",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-4-shifts-in-aggregate-demand",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63809/index.cnxml"
+  },
+  "11.5": {
+    "label": "§11.5 — How the AD/AS Model Incorporates Growth, Unemployment, and Inflation",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-5-how-the-ad-as-model-incorporates-growth-unemployment-and-inflation",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63810/index.cnxml"
+  },
+  "12.1": {
+    "label": "§12.1 — Aggregate Demand in Keynesian Analysis",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/12-1-aggregate-demand-in-keynesian-analysis",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63850/index.cnxml"
+  },
+  "15.1": {
+    "label": "§15.1 — The Federal Reserve Banking System and Central Banks",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/15-1-the-federal-reserve-banking-system-and-central-banks",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63726/index.cnxml"
+  },
+  "15.4": {
+    "label": "§15.4 — Monetary Policy and Economic Outcomes",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/15-4-monetary-policy-and-economic-outcomes",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63941/index.cnxml"
+  },
+  "15.5": {
+    "label": "§15.5 — Pitfalls for Monetary Policy",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/15-5-pitfalls-for-monetary-policy",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63943/index.cnxml"
+  },
+  "16.1": {
+    "label": "§16.1 — How the Foreign Exchange Market Works",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-1-how-the-foreign-exchange-market-works",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64200/index.cnxml"
+  },
+  "16.2": {
+    "label": "§16.2 — Demand and Supply Shifts in Foreign Exchange Markets",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-2-demand-and-supply-shifts-in-foreign-exchange-markets",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64192/index.cnxml"
+  },
+  "16.3": {
+    "label": "§16.3 — Macroeconomic Effects of Exchange Rates",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-3-macroeconomic-effects-of-exchange-rates",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64196/index.cnxml"
+  },
+  "17.1": {
+    "label": "§17.1 — Government Spending",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-1-government-spending",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63970/index.cnxml"
+  },
+  "17.2": {
+    "label": "§17.2 — Taxation",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-2-taxation",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63971/index.cnxml"
+  },
+  "17.3": {
+    "label": "§17.3 — Federal Deficits and the National Debt",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-3-federal-deficits-and-the-national-debt",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63972/index.cnxml"
+  },
+  "17.4": {
+    "label": "§17.4 — Using Fiscal Policy to Fight Recession, Unemployment, and Inflation",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-4-using-fiscal-policy-to-fight-recession-unemployment-and-inflation",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63973/index.cnxml"
+  },
+  "17.6": {
+    "label": "§17.6 — Practical Problems with Discretionary Fiscal Policy",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-6-practical-problems-with-discretionary-fiscal-policy",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63975/index.cnxml"
+  },
+  "18.1": {
+    "label": "§18.1 — How Government Borrowing Affects Investment and the Trade Balance",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/18-1-how-government-borrowing-affects-investment-and-the-trade-balance",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64118/index.cnxml"
+  },
+  "9.3": {
+    "label": "§9.3 — How the U.S. and Other Countries Experience Inflation",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/9-3-how-the-u-s-and-other-countries-experience-inflation",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m64156/index.cnxml"
+  },
+  "12.2": {
+    "label": "§12.2 — The Building Blocks of Keynesian Analysis",
+    "author": "Steven A. Greenlaw, David Shapiro & Daniel MacDonald",
+    "shortAuthor": "Greenlaw, Shapiro & MacDonald",
+    "work": "Principles of Macroeconomics 3e",
+    "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/12-2-the-building-blocks-of-keynesian-analysis",
+    "textUrl": "https://github.com/openstax/osbooks-principles-economics-bundle/blob/cf93bf19bbbca7d1324c2d31af0e81740ae3e5f5/modules/m63851/index.cnxml"
+  }
+};
+
+
 
 const illustrations = [
   '<circle class="stroke" cx="180" cy="91" r="48"/><ellipse class="stroke" cx="180" cy="91" rx="23" ry="48"/><path class="stroke" d="M134 75h92M134 107h92M180 43v96"/><circle class="solid" cx="225" cy="72" r="7"/><circle class="solid" cx="143" cy="118" r="5"/><path class="stroke" d="m113 55 10-10m110 89 10-10"/>',
@@ -423,7 +974,7 @@ const observer = 'IntersectionObserver' in window ? new IntersectionObserver(ent
   });
 }, { threshold: 0.08 }) : null;
 function reveal(elements) {
-  if (!observer || reducedMotion.matches) return;
+  if (!observer || reducedMotion.matches || document.body.classList.contains('motion-paused')) return;
   elements.forEach(element => { element.classList.add('is-pending'); observer.observe(element); });
 }
 reducedMotion.addEventListener('change', () => {
@@ -432,11 +983,11 @@ reducedMotion.addEventListener('change', () => {
 function render() {
   // User search stays out of HTML; rendered markup comes only from local lesson data.
   const query = search.value.trim().toLocaleLowerCase('id');
-  const filtered = articles.filter(a => (category === 'Semua' || a.category === category) && `${a.title} ${a.description} ${a.category} ${a.sections.flat().join(' ')} ${a.takeaways.join(' ')}`.toLocaleLowerCase('id').includes(query));
+  const filtered = articles.filter(a => (category === 'Semua' || a.category === category) && `${a.title} ${a.description} ${a.category} ${a.sections.flat().join(' ')} ${a.takeaways.join(' ')} Greenlaw Shapiro MacDonald`.toLocaleLowerCase('id').includes(query));
   if (observer) grid.querySelectorAll('.card').forEach(e => observer.unobserve(e));
   grid.innerHTML = filtered.map(a => {
     const index = articles.indexOf(a);
-    return `<article class="card reveal"><div class="card-art ${a.color}" aria-hidden="true"><span class="art-number">MAT. 0${index + 1}</span><span class="art-symbol"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><svg viewBox="0 0 360 185" fill="none">${illustrations[index]}</svg><span class="art-caption">${a.caption.split(' / ')[1]}</span></div><div class="card-body"><div class="card-meta"><span class="category">${a.category}</span><span>${a.minutes} menit + latihan</span></div><h3>${a.title}</h3><p>${a.description}</p><button class="read-link" data-id="${a.id}" aria-label="Baca materi: ${a.title}"><span>Pelajari materi</span><span class="link-arrow" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span></button></div></article>`;
+    return `<article class="card reveal"><div class="card-art ${a.color}" aria-hidden="true"><span class="art-number">MAT. 0${index + 1}</span><span class="art-symbol"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><svg viewBox="0 0 360 185" fill="none">${illustrations[index]}</svg><span class="art-caption">${a.caption.split(' / ')[1]}</span></div><div class="card-body"><div class="card-meta"><span class="category">${a.category}</span><span>${a.minutes} menit + latihan</span></div><h3><a href="materi/${a.id}.html">${a.title}</a></h3><p>${a.description}</p><button class="read-link" data-id="${a.id}" aria-label="Baca materi: ${a.title}"><span>Pelajari materi</span><span class="link-arrow" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span></button></div></article>`;
   }).join('');
   document.querySelector('#empty').hidden = filtered.length > 0;
   document.querySelector('#results').textContent = `${filtered.length} materi ditemukan`;
@@ -473,16 +1024,19 @@ function syncReader() {
   document.querySelector('#lesson-number').textContent = `MATERI 0${index + 1} DARI 06`;
   document.querySelector('#reader-content').innerHTML = `
     <div class="lesson-heading"><p class="eyebrow">${article.category} <span aria-hidden="true">/</span> ${article.minutes} MENIT + LATIHAN</p><h2 id="reader-title" tabindex="-1">${article.title}</h2><p class="lesson-deck">${article.description}</p></div>
-    <div class="lesson-goal"><span>SETELAH MEMBACA, KAMU BISA…</span><p>${article.goal}</p></div>
-    ${article.sections.map(([title, body], i) => `<section class="lesson-section"><h3><span>0${i + 1}</span>${title}</h3><p>${body}</p></section>`).join('')}
-    <div class="cause-chain" aria-label="Contoh alur sebab-akibat">${article.chain.map((step, i) => `${i ? '<span aria-hidden="true">→</span>' : ''}<div class="cause-step"><small>0${i + 1}</small><strong>${step}</strong></div>`).join('')}</div><p class="chain-note">${article.chainNote}</p>
-    <aside class="example-box"><span>BEDAH CONTOH / ANGKA ILUSTRASI</span><h3>${article.example.title}</h3><p>${article.example.body}</p></aside>
-    <aside class="lesson-summary"><span>TIGA HAL UNTUK DIBAWA PULANG</span><ul>${article.takeaways.map(text => `<li>${text}</li>`).join('')}</ul></aside>
-    <section class="quiz" aria-labelledby="quiz-question"><p class="eyebrow">BERHENTI SEBENTAR / CEK PEMAHAMAN</p><h3 id="quiz-question">${article.quiz.question}</h3><div class="quiz-options" role="group" aria-labelledby="quiz-question">${article.quiz.options.map((option, i) => `<button data-answer="${i}" aria-pressed="false"><span aria-hidden="true">${String.fromCharCode(65 + i)}</span>${option}</button>`).join('')}</div><p id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></p></section>
-    <section class="lesson-sources"><h3>Lanjutkan belajarmu</h3><ul>${article.sources.map(([label, url]) => `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${label} <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></li>`).join('')}</ul><p class="source-note">Tautan mengarah ke lembaga resmi untuk penelusuran lebih lanjut. Periksa periode dan definisi ketika membaca data terbaru.</p></section>
+    <p class="attribution-note"><span class="attribution-icon" aria-hidden="true">¶</span>Penjelasan orisinal Ruang Ekonomi. Dasar konsep: <strong>Steven A. Greenlaw, David Shapiro & Daniel MacDonald</strong>, <em>Principles of Macroeconomics 3e</em>. Ini parafrasa konsep, bukan kutipan langsung atau ulasan yang disahkan penulis.</p><div class="lesson-goal"><span>SETELAH MEMBACA, KAMU BISA…</span><p>${article.goal}</p></div>
+    ${article.sections.map(([title, body], i) => `<section class="lesson-section"><h3><span>0${i + 1}</span>${title}</h3><p>${body}</p>${Citations.inline(article.sectionRefs[i])}</section>`).join('')}
+    <div class="cause-chain" aria-label="Contoh alur sebab-akibat">${article.chain.map((step, i) => `${i ? '<span aria-hidden="true">→</span>' : ''}<div class="cause-step"><small>0${i + 1}</small><strong>${step}</strong></div>`).join('')}</div><p class="chain-note">${article.chainNote}</p>${Citations.inline(article.referenceGroups.chain)}
+    <aside class="example-box"><span>BEDAH CONTOH / ANGKA ILUSTRASI</span><h3>${article.example.title}</h3><p>${article.example.body}</p><small class="example-origin">Hitungan dan angka ilustrasi: Ruang Ekonomi.</small>${Citations.inline(article.referenceGroups.example, "Dasar konsep hitungan")}</aside>
+    <aside class="lesson-summary"><span>TIGA HAL UNTUK DIBAWA PULANG</span><ul>${article.takeaways.map((text, i) => `<li>${text}${Citations.inline(article.referenceGroups.takeaways[i])}</li>`).join('')}</ul></aside>
+    <section class="quiz" aria-labelledby="quiz-question"><p class="eyebrow">BERHENTI SEBENTAR / CEK PEMAHAMAN</p><h3 id="quiz-question">${article.quiz.question}</h3><div class="quiz-options" role="group" aria-labelledby="quiz-question">${article.quiz.options.map((option, i) => `<button data-answer="${i}" aria-pressed="false"><span aria-hidden="true">${String.fromCharCode(65 + i)}</span>${option}</button>`).join('')}</div>${Citations.inline(article.referenceGroups.quiz, "Dasar penyusunan soal")}<p id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></p></section>
+    <section class="lesson-sources"><h3>Sumber & penulis rujukan</h3>${Citations.bibliography(article)}<p class="source-note">Contoh angka dan soal disusun sendiri. Rujukan mendukung konsep, bukan menyatakan tokoh tersebut menggunakan angka contoh ini. <a href="sumber.html">Baca cara kami menggunakan sumber.</a></p></section>
     <nav class="lesson-nav" aria-label="Urutan materi">${previous ? `<a href="#baca-${previous.id}"><span>← MATERI SEBELUMNYA</span>${previous.title.split(':')[0]}</a>` : '<a href="#artikel"><span>← PETA BELAJAR</span>Lihat semua materi</a>'}${next ? `<a href="#baca-${next.id}"><span>MATERI BERIKUTNYA →</span>${next.title.split(':')[0]}</a>` : '<a href="#laboratorium"><span>SELESAI? COBA PRAKTIK →</span>Buka lab ekonomi mini</a>'}</nav>`;
   if (!reader.open) reader.showModal();
   reader.scrollTop = 0;
+  document.querySelector('#reader-content').classList.remove('lesson-enter');
+  void reader.offsetWidth;
+  document.querySelector('#reader-content').classList.add('lesson-enter');
   document.querySelector('#reader-title').focus({ preventScroll: true });
   requestAnimationFrame(updateReadingProgress);
 }
@@ -500,6 +1054,9 @@ reader.addEventListener('click', event => {
   feedback.textContent = `${correct ? '✓ Tepat! ' : 'Belum tepat. '}${currentArticle.quiz.feedback[answer]}${correct ? '' : ' Kamu bisa mencoba lagi.'}`;
   feedback.classList.toggle('is-wrong', !correct);
   feedback.hidden = false;
+  feedback.classList.remove('feedback-pop');
+  void feedback.offsetWidth;
+  feedback.classList.add('feedback-pop');
   updateReadingProgress();
 });
 function closeReader() {
